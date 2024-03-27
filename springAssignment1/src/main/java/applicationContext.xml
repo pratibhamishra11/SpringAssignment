@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="employees" class="SpringAssignment1.springAssignment1.question1">
+	<constructor-arg>
+		<map>
+			<entry key="1" value="Pratibha Mishra"/>
+			<entry key="2" value="Sakshi Shukla"/>
+		</map>
+	</constructor-arg>
+</bean>
+
+
+</beans>
